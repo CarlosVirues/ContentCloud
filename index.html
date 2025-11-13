@@ -80,12 +80,12 @@
 <script>
 (function(){
   const items = [
-    { "item": "Estático simple", "credits_per_piece": 1.0, "description": "Imagen individual para RRSS, banner o post fijo, copy básico, sin animación" },
-    { "item": "Estático con foto AI", "credits_per_piece": 1.0, "description": "Post similar al anterior, pero usando imagen generada con IA (sin sesión de foto)" },
-    { "item": "Carrusel creativo (3-5 slides)", "credits_per_piece": 2.0, "description": "Secuencia de imágenes que abordan una historia, explicación o varios mensajes" },
+    { "item": "Estático simple", "credits_per_piece": 2.0, "description": "Imagen individual para RRSS, banner o post fijo, copy básico, sin animación" },
+    { "item": "Estático con foto AI", "credits_per_piece": 2.5, "description": "Post similar al anterior, pero usando imagen generada con IA (sin sesión de foto)" },
+    { "item": "Carrusel creativo (3-5 slides)", "credits_per_piece": 3.0, "description": "Secuencia de imágenes que abordan una historia, explicación o varios mensajes" },
     { "item": "Story animado", "credits_per_piece": 1.0, "description": "Secuencia para stories con alguna animación simple" },
-    { "item": "Infografía compleja", "credits_per_piece": 2.0, "description": "Visual que ordena datos, comparativos, procesos o flujos" },
-    { "item": "Adaptación post/estático", "credits_per_piece": 0.8, "description": "Ajuste de idioma, país, formato, pequeño cambio en copy/diseño de una pieza" },
+    { "item": "Infografía compleja", "credits_per_piece": 4.0, "description": "Visual que ordena datos, comparativos, procesos o flujos" },
+    { "item": "Adaptación post/estático", "credits_per_piece": 0.5, "description": "Ajuste de idioma, país, formato, pequeño cambio en copy/diseño de una pieza" },
     { "item": "Adaptación video/reel", "credits_per_piece": 1.2, "description": "Ajuste de duración, formato, música, logo, subtítulos para mismo video en otra red" },
     { "item": "Reel/TikTok producto", "credits_per_piece": 2.0, "description": "Video corto (15-30s) mostrando producto, receta, unboxing o uso" },
     { "item": "Reel historia/emocional", "credits_per_piece": 3.0, "description": "Video/reel con storytelling, más énfasis en narrativa que solo mostrar producto" },
@@ -95,9 +95,9 @@
     { "item": "GIF animado", "credits_per_piece": 1.0, "description": "Animación simple, loop de imagen, meme, formato corto" },
     { "item": "Foto stock premium (con IA)", "credits_per_piece": 0.5, "description": "Imagen seleccionada de banco/stock y optimizada o customizada vía IA" },
     { "item": "Idea influencer (guión)", "credits_per_piece": 1.5, "description": "Propuesta creativa con storytelling para que influencer desarrolle su propia pieza" },
-    { "item": "Ejecución con influencer", "credits_per_piece": 6.0, "description": "Desarrollo completo: guión, gestión, producción y QA de pieza con influencer" }
+    { "item": "Guion con influencer", "credits_per_piece": 6.0, "description": "Desarrollo completo: guión, gestión, producción y QA de pieza con influencer" }
   ];
-  const usdPerCredit = 85.0;
+  const usdPerCredit = 42.5;
   const container = document.getElementById('cc-items');
 
   items.forEach((it, idx) => {
